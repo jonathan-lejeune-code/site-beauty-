@@ -1,0 +1,93 @@
+/*fond site */
+body {
+ background: url(img/fond.jpg) no-repeat,fixed; 
+
+}
+
+.titlename{
+	background-image:linear-gradient(#F36575, white);
+	font-size: 30px;
+	text-align: center;
+	width: 300px;
+	margin-left: auto;
+	margin-right: auto;
+	border-radius: 50px;
+	
+}
+/* mise en forme onglet*/
+ nav.menu{
+ 	list-style-type: none;
+ 	font-size: 20px;
+ 	font-family: "times new roman", serif;
+ 	margin: 10px; 
+ 	text-align: left;
+ 	background-image:linear-gradient(#F36575, white);
+ 	width: 500px;
+ 	margin-left: auto;
+	margin-right: auto;
+	border-radius: 50px;
+ }
+ /*mise en page de la liste onglet*/
+ul.onglet,li, a {color: #000;
+	text-decoration: none;
+	display: inline;
+	padding: 5px;
+	padding-left: 0px;
+}
+
+.my{
+	font-size: 30px;
+	font-family: times;
+	text-align: center;
+	background-image:linear-gradient(#F36575, white);
+	margin-left: auto;
+	margin-right: auto;
+	width: 200px;
+}
+
+.presentemy{
+	background-image:linear-gradient(#F36575, white);
+	font-family: "times new roman";
+	font-size: 16px;
+	width: 440px;
+	padding: 10px;
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+
+}
+
+.préstation{
+	font-size: 30px;
+	font-family: times;
+	text-align: center;
+	background-image:linear-gradient(#F36575, white);
+	margin-left: auto;
+	margin-right: auto;
+	width: 200px;
+}
+
+.tarif{
+	background-image:linear-gradient(#F36575, white);
+	opacity: 100%;
+	font-family: "Snell Roundhand", "URW Chancery L", cursive; 
+	font-size: 18px;
+	width: 700px;
+	height: 200px;
+	padding: 10px;
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.photos{
+	font-size: 30px;
+	font-family: times;
+	text-align: center;
+	background-image:linear-gradient(#F36575, white);
+	margin-left: auto;
+	margin-right: auto;
+	width: 200px;
+}
+
+

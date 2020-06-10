@@ -1,10 +1,12 @@
 /*fond site */
 body {
- background: url(img/fond.jpg) no-repeat,fixed; 
-
+	background: url(img/fond2.jpg); 
+	height: auto;
+	max-width: auto;
 }
 
 .titlename{
+	font-family: "Dancing Script";
 	background-image:linear-gradient(#F36575, white);
 	font-size: 30px;
 	text-align: center;
@@ -18,13 +20,14 @@ body {
  nav.menu{
  	list-style-type: none;
  	font-size: 20px;
- 	font-family: "times new roman", serif;
+ 	font-family:"Dancing Script" ,"times new roman", serif;
  	margin: 10px; 
  	text-align: left;
  	background-image:linear-gradient(#F36575, white);
  	width: 500px;
  	margin-left: auto;
 	margin-right: auto;
+	margin-bottom: 100px;
 	border-radius: 50px;
  }
  /*mise en page de la liste onglet*/
@@ -35,59 +38,134 @@ ul.onglet,li, a {color: #000;
 	padding-left: 0px;
 }
 
+#presentation{
+	font-size: 20px;
+	font-family: times;
+	text-align: center;
+	background-image:linear-gradient(#F36575, white);
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 100px;
+	width: 600px;
+	border-radius: 50px;
+	
+}
 .my{
+	font-family: "Dancing Script";
+}
+#préstation{
+	font-size: 30px;
+	font-family: "Dancing Script", cursive, serif;
+	text-align: center;
+	background-image:linear-gradient(#F36575, white);
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 100px;
+	width: 800px;
+	border-radius: 50px;
+	
+}
+
+
+#photos{
 	font-size: 30px;
 	font-family: times;
 	text-align: center;
 	background-image:linear-gradient(#F36575, white);
 	margin-left: auto;
 	margin-right: auto;
-	width: 200px;
+	margin-bottom: 100px;
+	width: 600px;
+	border-radius: 50px;
+	
 }
 
-.presentemy{
-	background-image:linear-gradient(#F36575, white);
-	font-family: "times new roman";
-	font-size: 16px;
-	width: 440px;
-	padding: 10px;
-	text-align: center;
+.photos{
+	font-family: "Dancing Script";
+}
+
+.image{
+	width: 600px;
+	height:800px;
 	margin-left: auto;
 	margin-right: auto;
-
 }
 
-.préstation{
-	font-size: 30px;
-	font-family: times;
-	text-align: center;
-	background-image:linear-gradient(#F36575, white);
-	margin-left: auto;
-	margin-right: auto;
-	width: 200px;
+.emeraude{
+	margin-left: 20px;
+	border-radius: 70px;
+	border:5px solid #F36575 ;
+	
 }
 
-.tarif{
+.brown{
+	margin-left: 20px;
+	border-radius: 70px;
+	border:5px solid #F36575 ;
+}
+
+.blue{
+	margin-left: 20px;
+	border-radius: 70px;
+	border:5px solid #F36575 ;
+}
+
+.red{
+	margin-left: 20px;
+	border-radius: 70px;
+	border:5px solid #F36575 ;
+}
+
+.strass{
+	margin-left: 20px;
+	border-radius: 70px;
+	border:5px solid #F36575 ;
+}
+
+.visage{
+	margin-left: 20px;
+	border-radius: 70px;
+	border:5px solid #F36575 ;
+}
+
+#contact{
 	background-image:linear-gradient(#F36575, white);
-	opacity: 100%;
 	font-family: "Snell Roundhand", "URW Chancery L", cursive; 
-	font-size: 18px;
-	width: 700px;
+	font-size: 30px;
+	width: 300px;
 	height: 200px;
 	padding: 10px;
 	text-align: center;
 	margin-left: auto;
 	margin-right: auto;
+	margin-bottom: 20px;
+	border-radius: 50px;
 }
 
-.photos{
-	font-size: 30px;
-	font-family: times;
-	text-align: center;
-	background-image:linear-gradient(#F36575, white);
-	margin-left: auto;
-	margin-right: auto;
-	width: 200px;
+.contact{
+	font-family: "Dancing Script";
+
 }
 
+/*bouton page d'accueail*/
+
+#bouton{
+	margin: auto;
+	margin-top: 350px;
+}
+
+.bouton{
+     font-family: "Dancing Script",Arial,sans-serif;
+     font-size: 1.6em;
+     width: 200px;
+     height: 43px;
+     display: block;
+     margin-top:200px;
+     margin: auto;
+     padding-top: 7px; /*permet le centrage vertical*/
+     text-align: center;
+     color: #fff;
+     background:#F36575 ;
+     border-radius: 40px;
+}
 

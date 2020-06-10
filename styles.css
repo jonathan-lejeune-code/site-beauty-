@@ -1,171 +1,168 @@
-/*fond site */
+/* fond site */
 body {
-	background: url(img/fond2.jpg); 
-	height: auto;
-	max-width: auto;
+  background: url(img/fond2.jpg);
+  height: auto;
 }
 
-.titlename{
-	font-family: "Dancing Script";
-	background-image:linear-gradient(#F36575, white);
-	font-size: 30px;
-	text-align: center;
-	width: 300px;
-	margin-left: auto;
-	margin-right: auto;
-	border-radius: 50px;
-	
-}
-/* mise en forme onglet*/
- nav.menu{
- 	list-style-type: none;
- 	font-size: 20px;
- 	font-family:"Dancing Script" ,"times new roman", serif;
- 	margin: 10px; 
- 	text-align: left;
- 	background-image:linear-gradient(#F36575, white);
- 	width: 500px;
- 	margin-left: auto;
-	margin-right: auto;
-	margin-bottom: 100px;
-	border-radius: 50px;
- }
- /*mise en page de la liste onglet*/
-ul.onglet,li, a {color: #000;
-	text-decoration: none;
-	display: inline;
-	padding: 5px;
-	padding-left: 0px;
+.titlename {
+  font-family: Dancing Script, serif;
+  background-image: linear-gradient(#f36575, white);
+  font-size: 30px;
+  text-align: center;
+  width: 300px;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 50px;
 }
 
-#presentation{
-	font-size: 20px;
-	font-family: times;
-	text-align: center;
-	background-image:linear-gradient(#F36575, white);
-	margin-left: auto;
-	margin-right: auto;
-	margin-bottom: 100px;
-	width: 600px;
-	border-radius: 50px;
-	
-}
-.my{
-	font-family: "Dancing Script";
-}
-#préstation{
-	font-size: 30px;
-	font-family: "Dancing Script", cursive, serif;
-	text-align: center;
-	background-image:linear-gradient(#F36575, white);
-	margin-left: auto;
-	margin-right: auto;
-	margin-bottom: 100px;
-	width: 800px;
-	border-radius: 50px;
-	
+/* mise en forme onglet */
+nav.menu {
+  list-style-type: none;
+  font-size: 20px;
+  font-family: Dancing Script, times new roman, serif;
+  margin: 10px;
+  text-align: left;
+  background-image: linear-gradient(#f36575, white);
+  width: 500px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 100px;
+  border-radius: 50px;
 }
 
-
-#photos{
-	font-size: 30px;
-	font-family: times;
-	text-align: center;
-	background-image:linear-gradient(#F36575, white);
-	margin-left: auto;
-	margin-right: auto;
-	margin-bottom: 100px;
-	width: 600px;
-	border-radius: 50px;
-	
+/* mise en page de la liste onglet */
+ul.onglet li a {
+  color: #000;
+  text-decoration: none;
+  display: inline;
+  padding: 5px;
+  padding-left: 0 px;
 }
 
-.photos{
-	font-family: "Dancing Script";
+#presentation {
+  font-size: 20px;
+  font-family: times, serif;
+  text-align: center;
+  background-image: linear-gradient(#f36575, white);
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 100px;
+  width: 600px;
+  border-radius: 50px;
 }
 
-.image{
-	width: 600px;
-	height:800px;
-	margin-left: auto;
-	margin-right: auto;
+.my {
+  font-family: Dancing Script, serif;
 }
 
-.emeraude{
-	margin-left: 20px;
-	border-radius: 70px;
-	border:5px solid #F36575 ;
-	
+#préstation {
+  font-size: 30px;
+  font-family: "Dancing Script", cursive, serif;
+  text-align: center;
+  background-image: linear-gradient(#f36575, white);
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 100px;
+  width: 800px;
+  border-radius: 50px;
 }
 
-.brown{
-	margin-left: 20px;
-	border-radius: 70px;
-	border:5px solid #F36575 ;
+#photos {
+  font-size: 30px;
+  font-family: times, serif;
+  text-align: center;
+  background-image: linear-gradient(#f36575, white);
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 100px;
+  width: 600px;
+  border-radius: 50px;
 }
 
-.blue{
-	margin-left: 20px;
-	border-radius: 70px;
-	border:5px solid #F36575 ;
+.photos {
+  font-family: Dancing Script, serif;
 }
 
-.red{
-	margin-left: 20px;
-	border-radius: 70px;
-	border:5px solid #F36575 ;
+.image {
+  width: 600px;
+  height: 800px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
-.strass{
-	margin-left: 20px;
-	border-radius: 70px;
-	border:5px solid #F36575 ;
+.emeraude {
+  margin-left: 20px;
+  border-radius: 70px;
+  border: 5px solid #f36575;
 }
 
-.visage{
-	margin-left: 20px;
-	border-radius: 70px;
-	border:5px solid #F36575 ;
+.brown {
+  margin-left: 20px;
+  border-radius: 70px;
+  border: 5px solid #f36575;
 }
 
-#contact{
-	background-image:linear-gradient(#F36575, white);
-	font-family: "Snell Roundhand", "URW Chancery L", cursive; 
-	font-size: 30px;
-	width: 300px;
-	height: 200px;
-	padding: 10px;
-	text-align: center;
-	margin-left: auto;
-	margin-right: auto;
-	margin-bottom: 20px;
-	border-radius: 50px;
+.blue {
+  margin-left: 20px;
+  border-radius: 70px;
+  border: 5px solid #f36575;
 }
 
-.contact{
-	font-family: "Dancing Script";
-
+.red {
+  margin-left: 20px;
+  border-radius: 70px;
+  border: 5px solid #f36575;
 }
 
-/*bouton page d'accueail*/
-
-#bouton{
-	margin: auto;
-	margin-top: 350px;
+.strass {
+  margin-left: 20px;
+  border-radius: 70px;
+  border: 5px solid #f36575;
 }
 
-.bouton{
-     font-family: "Dancing Script",Arial,sans-serif;
-     font-size: 1.6em;
-     width: 200px;
-     height: 43px;
-     display: block;
-     margin-top:200px;
-     margin: auto;
-     padding-top: 7px; /*permet le centrage vertical*/
-     text-align: center;
-     color: #fff;
-     background:#F36575 ;
-     border-radius: 40px;
+.visage {
+  margin-left: 20px;
+  border-radius: 70px;
+  border: 5px solid #f36575;
 }
 
+#contact {
+  background-image: linear-gradient(#f36575, white);
+  font-family: "Snell Roundhand", "URW Chancery L", cursive;
+  font-size: 30px;
+  width: 300px;
+  height: 200px;
+  padding: 10px;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 20px;
+  border-radius: 50px;
+}
+
+.contact {
+  font-family: Dancing Script, serif;
+}
+
+/* bouton page d'accueail */
+
+#bouton {
+  margin: auto;
+  margin-top: 350px;
+}
+
+.bouton {
+  font-family: Dancing Script, Arial, sans-serif;
+  font-size: 1.6em;
+  width: 200px;
+  height: 43px;
+  display: block;
+  margin-top: 400px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 7px; /* permet le centrage vertical */
+  text-align: center;
+  color: #fff;
+  background: #f36575;
+  border-radius: 40px;
+}
